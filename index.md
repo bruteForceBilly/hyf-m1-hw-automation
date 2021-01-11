@@ -4,7 +4,7 @@ A repository of templates explaining some common mistakes and anti-patterns comm
 ##### TO DO
  - [x] 1) Don't Repeat Yourself  (DRY) 
  - [x] 2) Magical Numbers
- - [x] 3) Non-descriptive css classnames
+ - [x] 3) Non-descriptive css class names
  - [x]  4) Prefer REM over PX
  - [x] 5) Don't use id selector for CSS
  - [x] 6) Don't use floats
@@ -102,7 +102,7 @@ You can learn more about the css calc function here:
 https://developer.mozilla.org/en-US/docs/Web/CSS/calc()
 
 
-## 3) Non-descriptive css classnames
+## 3) Non-descriptive css class names
 When there are css class names that are not descriptive or meaningful to another developer. The names are missing context, using abbreviations or are named after a number.
 
 ### Explanation
