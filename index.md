@@ -57,7 +57,7 @@ You could consolidate your styles to make your code more DRY like this:
 	    font-size: 16px;
     }
 
-See how you only need to update your code in one place now if you want to change the font? The win of writing your code more DRY is that its easier to understand, maintain and develop. 
+See how you only need to update your code in one place now if you want to change the font? The win of writing your code more DRY is that it's easier to understand, maintain and develop. 
 
 #### Resources 
 You can learn more about DRY here:
@@ -103,7 +103,7 @@ https://developer.mozilla.org/en-US/docs/Web/CSS/calc()
 
 
 ## 3) Non-descriptive css classnames
-When there is css class names that are not descriptive or meaningful to another developer. The names are missing context, using abbreviations or are named after a number.
+When there are css class names that are not descriptive or meaningful to another developer. The names are missing context, using abbreviations or are named after a number.
 
 ### Explanation
 Try to be more descriptive in your class names. For example the css classes ".first-section", ".second-section" or ".div" does not give another developer any information on what part of the page the css is intended to style, or what is the purpose of the style.
@@ -239,7 +239,7 @@ https://codepen.io/bruteforcebilly/pen/eYzQjMV
 When there is use of an id selector without the exercise calling for it specifically. 
 
 ### Explanation
-A rule of thumb is to never use the ID selector in your CSS unless you are absolutely sure an element will not occur more than once on web page or in your app. Example of such elements could be a wrapper element for a cookie bar, or a modal pop up prompting user for their age. These examples can demand a tight coupling between the HTML and CSS. 
+A rule of thumb is to never use the ID selector in your CSS unless you are absolutely sure an element will not occur more than once on the web page or in your app. Examples of such elements could be a wrapper element for a cookie bar, or a modal pop up prompting an user for their age. These examples can demand a tight coupling between the HTML and CSS. 
 
 But besides these niche scenarios, you almost always will want to have a loose coupling HTML and CSS for the sake of making your CSS more modular and reusable. This is achieved by using css classes and a good naming convention. 
 
@@ -256,17 +256,17 @@ https://developer.mozilla.org/en-US/docs/Web/CSS/Specificity
 When use floats in layout without the exercise specifically calling for it.
 
 ### Explanation
-Avoid using floats do to your layout. Knowing about floats it important for the sake of being able to maintain older websites, but there is no need to use floats today when making a new website. Prefer using flexbox instead.
+Avoid using floats to do your layout. Knowing about floats is important for the sake of being able to maintain older websites, but there is no need to use floats today when making a new website. Prefer using flexbox instead.
 
 #### Resources
 https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 
 
 ## 7) Not responsive
-When the project brakes upon resizing the window or trying different screen size. 
+When the project breaks upon resizing the window or trying different screen sizes. 
 
 ### Explanation
-Your layout breaks when resizing the window or when trying to different mobile screen resolutions in devtools. It's important to ensure that your design scales gracefully for different window sizes. This can be achieved by constantly checking the changes you are making in Device Mode in DevTools (prefer using the devtools from Chrome or Firefox). Also make sure that your have set your media queries correctly and a tip is to use REM values to make your design easier to scale up and down for different screen sizes. And make sure you have set your media queries as you intended
+Your layout breaks when resizing the window or when trying to different mobile screen resolutions in devtools. It's important to ensure that your design scales gracefully for different window sizes. This can be achieved by constantly checking the changes you are making in Device Mode in DevTools (prefer using the devtools from Chrome or Firefox). Also make sure that you have set your media queries correctly and a tip is to use REM values to make your design easier to scale up and down for different screen sizes. And make sure you have set your media queries as you intended
 
 #### Resources
 Device Mode in Chrome DevTools
@@ -293,15 +293,15 @@ https://www.youtube.com/watch?v=705XCEruZFs&t=248s
 When incorrect basic HTML markup
 
 ### Explanation
-It can take a while before one gets use to how the skeleton of an HTML document should look like. A tip is to read a lot of other HTML documents of github (here is one good example: https://github.com/mrmrs/html/blob/master/index.html)
+It can take a while before one gets used to how the skeleton of an HTML document should look like. A tip is to read a lot of other HTML documents of github (here is one good example: https://github.com/mrmrs/html/blob/master/index.html)
 
 #### Examples
 
 -- Make sure that your HTML Document has a `<title>` tag
 
--- When using list prefer using the unordered list element `<ul>`  and make sure it wraps you  `<li>` list elements as children.
+-- When using lists, prefer using the unordered list element `<ul>`  and make sure it wraps your  `<li>` list elements as children.
  
--- Make sure you sure sticking to using one way of assigning your CSS to your HTML document. For example if your are importing your css via a link tag in your HTML head like so:
+-- Make sure you stick to using one way of assigning your CSS to your HTML document. For example if your are importing your css via a link tag in your HTML head like so:
 
      <head>
     	 <link rel="stylesheet" href="style.css"> 
@@ -309,13 +309,13 @@ It can take a while before one gets use to how the skeleton of an HTML document 
      
  Do not then also use a `<style>` tag to add additional css to your html in your document.
        
--- Make sure you do not have multiple `<h1>` tags in your html. Search engines rely on your heading elements to index your page and show it in search results. Using multiple `<h1>` tags will make it more difficult for the search engine to determine what the page is about. Therefore its is advised to only use one `<h1>` tag per page.
+-- Make sure you do not have multiple `<h1>` tags in your html. Search engines rely on your heading elements to index your page and show it in search results. Using multiple `<h1>` tags will make it more difficult for the search engine to determine what the page is about. Therefore it is advised to only use one `<h1>` tag per page.
 
 #### Resources
 https://www.hobo-web.co.uk/headers/
 
 ## 10) Use semantic HTML
-When the students have not to used semantic html tags in their markup.
+When no use of semantic html tags.
 
 ### Explanation
 I've noticed that you could improve your use of semantic html tags. Semantic html tags are important as they make your code easier to read and maintain for other developers, as well as easier to index for search engines, giving you better search results!
@@ -346,7 +346,7 @@ Prefer using semantic html:
 Notice how the second example is easier to read and probably easier to maintain? 
 
 #### Resources
-The examples given has been qouted from this article: 
+The examples are from this article: 
 https://dev.to/kenbellows/stop-using-so-many-divs-an-intro-to-semantic-html-3i9i
 
 https://www.freecodecamp.org/news/semantic-html5-elements/
