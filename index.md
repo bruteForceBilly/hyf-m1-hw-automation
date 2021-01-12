@@ -11,7 +11,8 @@ A repository of templates explaining some common mistakes and anti-patterns comm
  - [x] 7) Not responsive
  - [ ] 8) Better usage of CSS Grid
  - [x] 9) Wrong usage of HTML tags
- - [ ] 10) Use semantic HTML
+ - [x] 10) Use semantic HTML
+ - [ ] 11) Invalid HTML
 
 
 ## 1) Don't Repeat Yourself  (DRY)
