@@ -267,7 +267,7 @@ https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 When the project breaks upon resizing the window or trying different screen sizes. 
 
 ### Explanation
-Your layout breaks when resizing the window or when trying to different mobile screen resolutions in devtools. It's important to ensure that your design scales gracefully for different window sizes. This can be achieved by constantly checking the changes you are making in Device Mode in DevTools (prefer using the devtools from Chrome or Firefox). Also make sure that you have set your media queries correctly and a tip is to use REM values to make your design easier to scale up and down for different screen sizes. And make sure you have set your media queries as you intended
+Your layout breaks when resizing the window or when trying different mobile screen resolutions in devtools. It's important to ensure that your design scales gracefully for different window sizes. This can be achieved by constantly checking the changes you are making in Device Mode in DevTools (prefer using the devtools from Chrome or Firefox). A tip is to use REM values to make your design easier to scale up and down for different screen sizes. And make sure you have set your media queries as you intended
 
 #### Resources
 Device Mode in Chrome DevTools
